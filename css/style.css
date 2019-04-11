@@ -1,0 +1,86 @@
+
+/*slide */
+.clear {clear: both;}
+a{text-decoration: none !important;}
+.margin-left{margin-left: auto;}
+.text-center {text-align: center !important;}
+.slide {margin-top: 50px;}
+.m-auto {margin-right: auto; margin-left: auto;}
+.slide-img {margin-left: auto;}
+.slide h1{font-weight:700; font-size: 36px; margin-bottom: 20px;}
+.slide-btn{margin-top: 30px;}
+.bg-blue {background-color: #0099ff; color: #fff !important; border: 1px solid #0099ff !important;}
+.btn-slide {padding: 10px 24px; border: 1px solid #0099ff;  border-radius: 5px; color: #000; }
+.baner-2 {margin-top: 20%;}
+.bg-gray{background-color: #e3ebee; height: 350px; position: relative;}
+.table-1 .col-md-8 {float: unset !important;}
+.table-1 {position: relative;margin-top: -84%;}
+.table-1 h3 {font-weight: 600;  font-size: 28px;}
+.table-1 span{color: #28c6a3;}
+.red {color: #fe4d63 !important;}
+.table {border-collapse: unset !important; background-color: #fff; padding: 10px 10px;border-radius: 10px; box-shadow: 4px 3px 10px 1px #f2f2f2; }
+.table>tbody>tr>td {border-top: 0;}
+.table>thead>tr>th {border-bottom: 0; text-align: center !important;}
+.margin-top {margin-top: 33px;}
+.table thead tr th:nth-child(2),.table thead tr th:nth-child(3){border-bottom: 2px solid #e8e8e8; background-color: #f9f9f9;}
+.table thead tr th:nth-child(3){border-top-right-radius:10px; }
+.table tbody tr td:nth-child(3){border-bottom-right-radius:10px; }
+.table thead tr th:nth-child(2) {border-right: 1px solid #e8e8e8;}
+.table tbody tr td:nth-child(2) {border-right: 1px solid #e8e8e8;}
+.table tbody tr td:nth-child(2),.table tbody tr td:nth-child(3){ background-color: #f9f9f9;}
+/*tab*/
+.p-0 {padding: 0; border-right: 1px solid #f9f9f9;}
+.banner  {margin-top: 50px;}
+.pricing {text-align:  center; margin-bottom: 50px;}
+.pricing p span{color: #0099ff;}
+ul.tabs{margin: 0px;padding: 0px;list-style: none;}
+ul.tabs li{ background: none;color: #222;display: inline-block;padding: 10px 15px;cursor: pointer; box-shadow: 4px 3px 5px 1px #f2f2f2;}
+ul.tabs li.current{border:1px solid #0099ff; color: #222;}
+.tab-content{display: none;padding: 15px;}
+.tab-content.current{display: inherit;}
+.switch {position: relative;display: inline-block;width: 60px;height: 34px;}
+.switch input {opacity: 0;width: 0;height: 0;}
+.slider {position: absolute;cursor: pointer;top: 0;left: 0;right: 0;bottom: 0;background-color: #ccc;-webkit-transition: .4s;transition: .4s;}
+.slider:before {position: absolute;content: "";height: 26px;width: 26px;left: 4px;bottom: 4px;background-color: white;-webkit-transition: .4s;transition: .4s;}
+input:checked + .slider {background-color: #2196F3;}
+input:focus + .slider {box-shadow: 0 0 1px #2196F3;}
+input:checked + .slider:before {-webkit-transform: translateX(26px);-ms-transform: translateX(26px);transform: translateX(26px);}
+/* Rounded sliders */
+.slider.round {border-radius: 34px;}
+.slider.round:before { border-radius: 50%;}
+.card {background-color: #fff; padding: 20px 10px; box-shadow: 4px 3px 5px 1px #f2f2f2;}
+.switch-1 {margin: 10px 0;}
+.card-body h3{font-size: 28px;}
+.card-body p{font-size: 25px; font-weight: 700; margin-bottom: 0px !important; }
+.card-body p span {font-size: 18px;}
+.card-body span{ font-size: 20px; }
+.card.savings{ box-shadow: 0px 0px 5px 6px #f2f2f2;transform: scale(1,1.2);}
+.card.savings p{color: #0099ff;}
+.test-img img{border-radius: 50%;}
+.owl-carousel .owl-item img{width: auto !important;display: inline-block !important;}
+.owl-carousel button.owl-dot {padding: 0px !important;}
+.owl-nav {display: none;}
+.banner-3 .col-md-10 {float: unset !important;}
+.banner-3 .col-lg-7 {float: unset !important;}
+.banner-3 {margin-top: 100px;}
+.banner-3 h3{font-weight: 600;  font-size: 28px; margin-bottom: 50px;}
+.testimonials-details .float-left{ float: left !important; }
+.test-img {margin-right: 50px;}
+.test-text p span {font-size: 30px;}
+.title-name {margin-top: 30px;}
+.title-name h5{font-size: 22px; font-weight: 600;}
+.title-name p{font-size: 18px;}
+.owl-carousel  .owl-dots{text-align: center;}
+.owl-carousel  .owl-dots span{width: 10px;height: 10px; margin: 5px 7px;background: #D6D6D6;display: block;-webkit-backface-visibility: visible;transition: opacity .2s ease;border-radius: 30px;}
+.owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {background: #0099ff;}
+.banner-4{margin-top: 50px;}
+
+.expert h3{font-weight: 600;  font-size: 28px;}
+.margin-bottom {margin-bottom:30px;}
+@media (min-width: 768px){
+	.btn-slide {padding: 10px 30px;}
+	.baner-2 {margin-top: 10%;}
+	.table-1 {position: relative;margin-top: -29%;}
+	.margin-top {margin-top: 33px;}
+	.expert {margin-top:120px; }
+}
